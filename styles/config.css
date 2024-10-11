@@ -1,0 +1,33 @@
+/* ===================
+   Fonts
+   =================== */
+
+@font-face {
+	font-family: "Bai Jamjuree";
+	src: url("/assets/fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: "Bai Jamjuree semi bold";
+	src: url("/assets/fonts/Bai_Jamjuree/BaiJamjuree-SemiBold.ttf")
+		format("truetype");
+}
+
+/* ===================
+   VARIABLES
+   =================== */
+
+:root {
+	/* ---Couleurs--- */
+	--color-light: #ffffff;
+	--color-lighter: #9eabb2;
+	--color-dark: #000000;
+	--color-darker: #4c545c;
+	--color-primary: #26bba4;
+	--color-secondary: #6174ff;
+
+	/* ---Polices--- */
+	--font-primary: "Bai Jamjuree", sans-serif;
+	--font-secondary: "Bai Jamjuree semi bold", sans-serif;
+}
